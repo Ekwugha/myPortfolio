@@ -15,9 +15,59 @@ export default function Home() {
           name="description"
           content="Portfolio of Elochukwu Ekwugha, showcasing production web and mobile applications built with React, Next.js, and React Native. Explore work, skills, and projects."
         />
+        <meta
+          name="keywords"
+          content="Elochukwu, Ekwugha, Elochukwu Ekwugha, Frontend Developer, Mobile Developer, React, Next.js, React Native"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" type="image/svg+xml" href="/logo.svg" />
-        <link rel="canonical" href="https://elochukwu-ekwugha.vercel.app" />
+        {/* Open Graph & Twitter */}
+        <meta
+          property="og:title"
+          content="Elochukwu Ekwugha — Frontend & Mobile Developer"
+        />
+        <meta
+          property="og:description"
+          content="Portfolio of Elochukwu Ekwugha, showcasing production web and mobile applications built with React, Next.js, and React Native. Explore work, skills, and projects."
+        />
+        <meta
+          property="og:url"
+          content="https://elochukwu-ekwugha.vercel.app"
+        />
+        <meta
+          property="og:image"
+          content="https://elochukwu-ekwugha.vercel.app/logo.svg"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Elochukwu Ekwugha — Frontend & Mobile Developer"
+        />
+        <meta
+          name="twitter:description"
+          content="Portfolio of Elochukwu Ekwugha, showcasing production web and mobile applications built with React, Next.js, and React Native. Explore work, skills, and projects."
+        />
+        <meta
+          name="twitter:image"
+          content="https://elochukwu-ekwugha.vercel.app/logo.svg"
+        />
+        {/* JSON-LD Structured Data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              name: "Elochukwu Ekwugha",
+              url: "https://elochukwu-ekwugha.vercel.app",
+              sameAs: [
+                "https://github.com/ekwugha",
+                "https://x.com/darealElo_",
+              ],
+              jobTitle: "Frontend & Mobile Developer",
+            }),
+          }}
+        />
       </Head>
 
       <main className="min-h-screen">
