@@ -71,32 +71,33 @@ export default function Hero() {
       <div className="relative z-10 section-container text-center">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
+          animate={mounted ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="mb-6"
         >
-          <span className="inline-block px-4 py-2 glass-card text-sm text-primary font-mono">
-            Frontend & Mobile Developer
-          </span>
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-semibold mb-4 leading-tight tracking-tight">
+            <span className="gradient-text text-glow">Elochukwu Ekwugha</span>
+          </h1>
         </motion.div>
 
-        <motion.h1
+        <motion.div
           initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
+          animate={mounted ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="text-5xl md:text-7xl lg:text-8xl font-semibold mb-6 leading-tight tracking-tight"
         >
-          <span className="gradient-text text-glow">Elochukwu Ekwugha</span>
-        </motion.h1>
+          <h2 className="text-xl md:text-2xl lg:text-3xl font-medium text-muted-foreground mb-6">
+            Frontend &amp; Mobile Developer — React, Next.js, React Native
+          </h2>
+        </motion.div>
 
-        <motion.p
+        <motion.div
           initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
+          animate={mounted ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
           transition={{ duration: 0.8, delay: 0.6 }}
-          className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto mb-10"
         >
-          Designing and engineering web &amp; mobile systems.
-        </motion.p>
+          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10">
+            Designing and engineering web &amp; mobile systems.
+          </p>
+        </motion.div>
 
         <motion.div
           initial={{ opacity: 0, y: 30 }}
