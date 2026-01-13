@@ -15,6 +15,30 @@ export default function Document() {
         <link rel="shortcut icon" href="/logo.svg" />
         <link rel="apple-touch-icon" href="/logo.svg" />
         <meta name="theme-color" content="#020617" />
+        <meta
+          name="google-site-verification"
+          content="ciZdg8MKa-gOdRqopXf0wNrD4up4_BTyLKRKSvFFAvQ"
+        />
+
+        {/* Google Analytics */}
+        {process.env.NEXT_PUBLIC_GA_ID && (
+          <>
+            <script
+              async
+              src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}
+            />
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}');
+                `,
+              }}
+            />
+          </>
+        )}
 
         {/* Primary Meta Tags */}
         <meta name="title" content={siteTitle} />
