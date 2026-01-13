@@ -1,0 +1,18 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Black background -->
+  <rect width="256" height="256" rx="0" fill="#000000"/>
+  
+  <!-- White "E" - minimal geometric design -->
+  <!-- Vertical bar (left spine) -->
+  <rect x="56" y="48" width="22" height="160" rx="11" fill="#FFFFFF"/>
+  
+  <!-- Top horizontal bar -->
+  <rect x="56" y="48" width="136" height="22" rx="11" fill="#FFFFFF"/>
+  
+  <!-- Middle horizontal bar (shorter for visual balance) -->
+  <rect x="56" y="117" width="104" height="22" rx="11" fill="#FFFFFF"/>
+  
+  <!-- Bottom horizontal bar -->
+  <rect x="56" y="186" width="136" height="22" rx="11" fill="#FFFFFF"/>
+</svg>
+

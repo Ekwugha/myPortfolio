@@ -16,7 +16,7 @@ export default function Home() {
           content="Portfolio of a Frontend & Mobile Developer specializing in React, Next.js, and React Native"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/svg+xml" href="/logo.svg" />
       </Head>
 
       <main className="min-h-screen">
