@@ -164,7 +164,7 @@ export default function Contact() {
                   Message Sent!
                 </h3>
                 <p className="text-gray-600 dark:text-gray-400 mb-6">
-                  Thanks for reaching out. I'll get back to you soon.
+                  Thanks for reaching out. I&apos;ll get back to you soon.
                 </p>
                 <button
                   onClick={() => setIsSubmitted(false)}
@@ -308,7 +308,7 @@ export default function Contact() {
           >
             <div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white">
-                Let's Connect
+                Let&apos;s Connect
               </h3>
               <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
                 I’m open to discussing product work, engineering challenges, and
