@@ -96,8 +96,7 @@ const projects = [
     longDescription:
       "Built a beautiful e-commerce web application for selling handcrafted bead bags. Features include glassmorphism product cards, search and filtering, sale badges, new arrival indicators, limited stock warnings, Firebase-powered admin panel with image uploads, and WhatsApp integration for seamless ordering.",
     tech: ["Next.js", "TypeScript", "Tailwind", "Framer Motion", "Firebase"],
-    image:
-      "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800&h=600&fit=crop",
+    image: "https://kuueza.com/wp-content/uploads/2024/04/bags.jpeg",
     liveUrl: "https://ify-beads-store.vercel.app/",
     githubUrl: "https://github.com/Ekwugha/ify-beads-store",
   },
