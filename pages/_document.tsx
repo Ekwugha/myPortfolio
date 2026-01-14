@@ -10,10 +10,14 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        {/* Favicon and app icons - SVG for modern browsers */}
+        {/* Favicon and app icons - Prioritize SVG, with fallbacks */}
         <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/logo.svg" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/logo.svg" />
         <link rel="shortcut icon" href="/logo.svg" />
-        <link rel="apple-touch-icon" href="/logo.svg" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/logo.svg" />
+        <link rel="mask-icon" href="/logo.svg" color="#000000" />
+        <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#020617" />
         <meta
           name="google-site-verification"
