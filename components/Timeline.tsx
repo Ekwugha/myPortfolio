@@ -3,30 +3,34 @@ import { motion } from 'framer-motion';
 const experiences = [
   {
     year: '2023 - Present',
-    title: 'Senior Frontend Developer',
-    company: 'TechCorp Inc.',
+    title: 'Frontend Engineer',
+    company: 'ActivEdge Technologies.',
     description: 'Leading frontend architecture for enterprise applications. Mentoring junior developers and establishing best practices for React and TypeScript development.',
     highlights: ['Led team of 5 developers', 'Reduced load time by 40%', 'Implemented design system'],
   },
-  {
-    year: '2021 - 2023',
-    title: 'Mobile Developer',
-    company: 'StartupXYZ',
-    description: 'Built and maintained React Native applications for iOS and Android. Worked closely with design and backend teams to deliver seamless user experiences.',
-    highlights: ['3 apps launched', '4.8★ average rating', '500K+ downloads'],
+  { 
+    year: '2022 - 2023', 
+    title: 'Mobile Developer', 
+    company: 'Cyncra Technologies', 
+    description: 'Built and maintained React Native applications for iOS and Android. Worked closely with design and backend teams to deliver seamless user experiences.', 
+    highlights: [
+      'Led development of multiple consumer-facing mobile applications',
+      'Maintained consistently high user satisfaction across app platforms',
+      'Delivered polished, user-friendly mobile experiences'
+    ], 
   },
   {
     year: '2019 - 2021',
-    title: 'Frontend Developer',
+    title: 'Intern - Frontend Developer',
     company: 'Digital Agency',
     description: 'Developed responsive web applications for various clients across different industries. Specialized in React and modern JavaScript frameworks.',
-    highlights: ['20+ client projects', 'E-commerce focus', 'Performance optimization'],
+    highlights: ['client projects', 'E-commerce focus', 'Performance optimization'],
   },
   {
-    year: '2018 - 2019',
-    title: 'Junior Developer',
-    company: 'WebSolutions',
-    description: 'Started my professional journey building websites and web applications. Learned industry best practices and agile development methodologies.',
+    year: '2019 - 2020',
+    title: "Frontend Developer",
+    company: '',
+    description: 'Built and maintained websites and web applications for clients across different industries. Learned industry best practices and agile development methodologies.',
     highlights: ['First production app', 'Rapid skill growth', 'Team collaboration'],
   },
 ];
